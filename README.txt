@@ -1,0 +1,3 @@
+======= README =======
+
+Your mission, if you choose to accept it, is to create a fully functioning slider from the packaged designs. This is a test of how well you can replicate a design so try to keep it as close to the designs as possible! You are free to use any tools at your disposal and to add any animations you deem fit. Follow the instructions in the email you received to send back your test. Show off, be brave, be bold, be Dauntless.
