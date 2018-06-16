@@ -1,11 +1,111 @@
-#start-button-div {
-    height: 7%;
-    left: 87%;
-    position: absolute;
-    top: 89%;
-    width: 12%;
+@font-face {
+    font-family: "BlackDiamond";
+    src:url("Fonts/Black\ Diamond.otf");
 }
 
-#dauntless-carousel {
-    position: relative;
+@font-face {
+    font-family: "TrendSansOne";
+    src:url("Fonts/Latinotype\ -\ TrendSansOne.otf");
 }
+
+
+/* Slide 1 */
+
+#start-button {
+  right: 2vw;
+  position: absolute;
+  bottom: 2vw;
+  font-family: "TrendSansOne";
+}
+
+.logo-slide1 {
+    width: 33%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#triangle11 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 22vw 22vw;
+  border-color: transparent transparent #6ac1c2 transparent;
+  position:absolute;
+  bottom:0;
+  right:0;
+  opacity: .75;
+}
+
+#triangle12 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 26vw 26vw;
+  border-color: transparent transparent #6ac1c2 transparent;
+  position:absolute;
+  bottom:0;
+  right:0;
+  opacity: .25;
+}
+
+#slide1-text {
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #234753;
+  font-family: "TrendSansOne";
+  text-align:center;
+  font-size: 1.2rem;
+}
+/* TODO: Add Media Query Breakpoint for text */
+
+
+/* Slide 2 */
+
+.logo-slide2 {
+  width: 66%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#slide2-text {
+  width: 100%;
+  top: 33%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #0b1f2f;
+  font-family: "TrendSansOne";
+  text-align:center;
+  font-size: 2.4rem;
+}
+/* TODO: Add Media Query Breakpoint for text*/
+
+#rectangle21 {
+  width: 3%;
+  height: 100%;
+  position:absolute;
+  background-color: #50b8bb;
+  top:0;
+  left:0;
+  opacity: .75;
+}
+
+#rectangle22 {
+  width: 6%;
+  height: 100%;
+  position:absolute;
+  background-color: #50b8bb;
+  top:0;
+  left:0;
+  opacity: .50;
+}
+
+
+/* Slide 3 */
