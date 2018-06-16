@@ -8,7 +8,6 @@
     src:url("Fonts/Latinotype\ -\ TrendSansOne.otf");
 }
 
-
 /* Slide 1 */
 
 #start-button {
@@ -109,3 +108,114 @@
 
 
 /* Slide 3 */
+
+#slide3-text-vertical {
+  top: 15.5%;
+  position: absolute;
+  color: #d3b03c;
+  font-family: "TrendSansOne";
+  text-align:center;
+  transform: rotate(-90deg);
+}
+
+#slide3-text {
+  top: 8%;
+  left: 12%;
+  position: absolute;
+  color: white;
+  font-family: "TrendSansOne";
+  background: linear-gradient(top, transparent 0%, #0c1f2e 100%);
+  text-align: left;
+  
+  display: block;
+ 
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  #slide3-text-vertical {
+    font-size: 1.5rem;
+  }
+
+  #slide3-text {
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  
+  #slide3-text-vertical {
+    font-size: 2rem;
+  }
+
+  #slide3-text {
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+  #slide3-text-vertical {
+    font-size: 2rem;
+  }
+
+  #slide3-text {
+    line-height: 2.5rem;
+    font-size: 2.5rem;
+  }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  
+  #slide3-text-vertical {
+    font-size: 3rem;
+  }
+
+  #slide3-text {
+    line-height: 3rem;
+    font-size: 3rem;
+  }
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  
+  #slide3-text-vertical {
+    font-size: 3.5rem;
+  }
+
+  #slide3-text {
+    line-height: 3.5rem;
+    font-size: 3.5rem;
+  }
+
+ }
+
+#rectangle31 {
+  width: 3%;
+  height: 100%;
+  position:absolute;
+  background-color: #d3b03c;
+  top:0;
+  right:0;
+  opacity: .75;
+}
+
+#rectangle32 {
+  width: 6%;
+  height: 100%;
+  position:absolute;
+  background-color: #d3b03c;
+  top:0;
+  right: 0;
+  opacity: .50;
+}
